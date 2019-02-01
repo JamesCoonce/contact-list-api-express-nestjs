@@ -1,0 +1,12 @@
+{
+    "type": "mysql",
+    "host": "localhost",
+    "port": 32769,
+    "username": "root",
+    "password": "root",
+    "database": "ContactList",
+    "entities": [
+        "src/**/**.entity{.ts,.js}"
+    ],
+    "synchronize": true
+}
